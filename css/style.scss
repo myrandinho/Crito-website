@@ -1,8 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Amatic+SC&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;0,9..40,900;1,9..40,400&family=Inter:wght@300;400;500;700&display=swap');
 
 html, body {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
     
 }
+.h2-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 45px;
+    padding-bottom: 50px;
+}
+
+.h3-text {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+}
+.red-text {
+    color: red;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
 .yellow-button {
     background-color: #F9D783;
     border: 1px solid #F9D783;
@@ -175,7 +195,7 @@ header {
 }
 }
 
-section {
+.section-1 {
     background-color: #f0efe9;
 
     .startpage {
@@ -202,6 +222,115 @@ section {
         }
     }
 }
+
+.section-2 {
+    background-color: #ffffff;
+    
+    
+    
+    .container {
+        
+        
+
+        .img-block {
+            display: flex;
+            justify-content: end;
+            margin-right: 50px;
+            padding-bottom: 100px;
+            
+    }
+        .img-position {  
+        margin-left: 120px;
+        margin-top: 40px;
+        
+
+    }
+        
+    }
+
+}
+
+.section-3 {
+
+
+    .features-box {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-areas: "leftbox rightbox";
+        
+
+
+        .left-box {
+            grid-area: "leftbox";
+            padding-right: 100px;
+            .yellow-button {
+                padding-left: 180px;
+                padding-right: 180px;
+                margin-bottom: 220px;
+
+                &:hover {
+                    background-color: #191919;
+                    color: #f0efe9;
+                }
+                
+            }
+
+
+        }
+
+        .right-box {
+            grid-area: "right-box";
+
+            display: grid;
+            column-gap: 140px;
+            row-gap: 60px;
+            grid-template-columns: auto 1fr;
+            grid-template-rows: auto 1fr;
+            grid-template-areas: "BA SB"
+                                  "FA RM";
+            
+            
+            i {
+                font-size: 35px;
+                padding-bottom: 40px;
+            }
+            
+            }
+
+            .business-advice {
+                grid-area: "BA";
+                
+                
+
+            }
+
+            .startup-business {
+                grid-area: "SB";
+
+            }
+
+            .financial-advice {
+                grid-area: "FA";
+
+            }
+
+            .risk-management {
+                grid-area: "RM";
+
+            }
+
+        }
+
+    }
+
+
+
+    
+        
+        
+
+        
+
 
 
 

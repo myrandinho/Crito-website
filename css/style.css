@@ -1,4 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Amatic+SC&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,500;0,9..40,700;0,9..40,900;1,9..40,400&family=Inter:wght@300;400;500;700&display=swap");
+html, body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+.h2-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+
+.h3-text {
+  font-family: "DM Sans", sans-serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.red-text {
+  color: red;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+
 .yellow-button {
   background-color: #F9D783;
   border: 1px solid #F9D783;
@@ -142,23 +166,82 @@
   color: #f0efe9;
 }
 
-section {
+.section-1 {
   background-color: #f0efe9;
 }
-section .startpage {
+.section-1 .startpage {
   display: flex;
 }
-section .startpage .left-side {
+.section-1 .startpage .left-side {
   margin-top: 140px;
 }
-section .startpage .left-side h1 {
+.section-1 .startpage .left-side h1 {
   font-family: "DM Sans", sans-serif;
   font-size: 80px;
 }
-section .startpage .left-side p {
+.section-1 .startpage .left-side p {
   font-size: 20px;
 }
-section .startpage .right-side {
+.section-1 .startpage .right-side {
   margin-top: 50px;
   margin-right: -50px;
+}
+
+.section-2 {
+  background-color: #ffffff;
+}
+.section-2 .container .img-block {
+  display: flex;
+  justify-content: end;
+  margin-right: 50px;
+  padding-bottom: 100px;
+}
+.section-2 .container .img-position {
+  margin-left: 120px;
+  margin-top: 40px;
+}
+
+.section-3 .features-box {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-areas: "leftbox rightbox";
+}
+.section-3 .features-box .left-box {
+  grid-area: "leftbox";
+  padding-right: 100px;
+}
+.section-3 .features-box .left-box .yellow-button {
+  padding-left: 180px;
+  padding-right: 180px;
+  margin-bottom: 220px;
+}
+.section-3 .features-box .left-box .yellow-button:hover {
+  background-color: #191919;
+  color: #f0efe9;
+}
+.section-3 .features-box .right-box {
+  grid-area: "right-box";
+  display: grid;
+  -moz-column-gap: 140px;
+       column-gap: 140px;
+  row-gap: 60px;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas: "BA SB" "FA RM";
+}
+.section-3 .features-box .right-box i {
+  font-size: 35px;
+  padding-bottom: 40px;
+}
+.section-3 .features-box .business-advice {
+  grid-area: "BA";
+}
+.section-3 .features-box .startup-business {
+  grid-area: "SB";
+}
+.section-3 .features-box .financial-advice {
+  grid-area: "FA";
+}
+.section-3 .features-box .risk-management {
+  grid-area: "RM";
 }
