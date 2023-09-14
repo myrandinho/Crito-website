@@ -160,4 +160,5 @@ section .startpage .left-side p {
 }
 section .startpage .right-side {
   margin-top: 50px;
+  margin-right: -50px;
 }
