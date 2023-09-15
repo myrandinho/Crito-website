@@ -205,6 +205,7 @@ html, body {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas: "leftbox rightbox";
+  padding-bottom: 110px;
 }
 .section-3 .features-box .left-box {
   grid-area: "leftbox";
@@ -244,4 +245,27 @@ html, body {
 }
 .section-3 .features-box .risk-management {
   grid-area: "RM";
+}
+
+.section-8 .container .project-title {
+  text-align: center;
+}
+.section-8 .container .project-and-case {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr;
+  gap: 30px;
+  grid-template-areas: "art1 art2" "art3 art4";
+}
+.section-8 .container .project-and-case #article-1 {
+  grid-area: art1;
+}
+.section-8 .container .project-and-case #article-2 {
+  grid-area: art2;
+}
+.section-8 .container .project-and-case #article-3 {
+  grid-area: art3;
+}
+.section-8 .container .project-and-case #article-4 {
+  grid-area: art4;
 }

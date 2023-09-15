@@ -21,6 +21,7 @@ html, body {
     font-family: 'Inter', sans-serif;
     font-size: 18px;
     padding-bottom: 30px;
+    
 }
 
 .yellow-button {
@@ -257,6 +258,7 @@ header {
         display: grid;
         grid-template-columns: auto 1fr;
         grid-template-areas: "leftbox rightbox";
+        padding-bottom: 110px;
         
 
 
@@ -326,11 +328,41 @@ header {
 
 
     
+.section-8 {
+    
+    .container {
+       
+    
+    
+
+        .project-title {
+
+        text-align: center;
+        }
+
+    
+
+        .project-and-case {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            grid-template-rows: auto 1fr;
+            gap: 30px;
+            grid-template-areas: "art1 art2"
+                                    "art3 art4";
+
         
+        #article-1 {grid-area: art1}
+        #article-2 {grid-area: art2}
+        #article-3 {grid-area: art3}
+        #article-4 {grid-area: art4}
+
+        }
+    
+    }
+}
         
 
         
-
 
 
 
