@@ -325,6 +325,77 @@ header {
         }
 
     }
+.section-4 {
+
+    background-color: #f0efe9;
+
+    .service-boxes {
+        display: flex;
+        
+
+      .btn-right {
+        display: flex;
+        justify-content: end;
+        
+      }
+
+        .business-subject {
+
+            height: 330px;
+            width: 300px;
+            padding: 30px 30px 45px 30px;
+            margin-right: 25px;
+            background-color: #ffffff;
+
+
+
+            &:hover {
+                background-color: #F9D783; 
+            }
+
+            h1{
+                
+                font-size: 20px;
+            }
+
+            .arrow-button {
+                display: flex;
+                border: 1px solid black;
+                height: 55px;
+                width: 55px;
+                border-radius: 50%;
+                text-decoration: none;
+                justify-content: center;
+                align-items: center;
+                color: #ffffff;
+                background-color: #191919;
+
+                &:hover {
+                    background-color: #ffffff;
+                    color: #191919;
+                }
+
+              
+            }
+
+
+        }
+    }
+
+    .browse-btn-center {
+        display: flex;
+        justify-content: center;
+
+        .browse-btn {
+            border: 1px solid #191919;
+            color: #191919;
+            text-decoration: none;
+            
+        }
+    }
+
+    
+}
 
 .about-company {
     
@@ -456,6 +527,8 @@ header {
     
     }
 }
+
+
         
 
         
