@@ -194,18 +194,19 @@ html, body {
   display: flex;
   justify-content: end;
   margin-right: 50px;
-  padding-bottom: 100px;
 }
 .section-2 .container .img-position {
   margin-left: 120px;
   margin-top: 40px;
 }
 
+.section-3 {
+  padding-top: 100px;
+}
 .section-3 .features-box {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-areas: "leftbox rightbox";
-  padding-bottom: 110px;
 }
 .section-3 .features-box .left-box {
   grid-area: "leftbox";
@@ -214,7 +215,6 @@ html, body {
 .section-3 .features-box .left-box .yellow-button {
   padding-left: 180px;
   padding-right: 180px;
-  margin-bottom: 220px;
 }
 .section-3 .features-box .left-box .yellow-button:hover {
   background-color: #191919;
@@ -245,6 +245,77 @@ html, body {
 }
 .section-3 .features-box .risk-management {
   grid-area: "RM";
+}
+
+.about-company .aboutcompany-section {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 115px;
+}
+.about-company .aboutcompany-section .about-founder .samantha-box {
+  height: 180px;
+  width: 380px;
+  justify-content: center;
+  text-align: center;
+  background-color: #BEEBFF;
+  position: relative;
+  top: -220px;
+  right: 60px;
+}
+.about-company .aboutcompany-section .about-founder .samantha-box .samantha-title {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.about-company .aboutcompany-section .about-founder .samantha-box .samantha-title h3 {
+  font-size: 20px;
+  font-family: "DM Sans", sans-serif;
+  font-weight: bold;
+  margin-right: 5px;
+}
+.about-company .aboutcompany-section .about-founder .samantha-box .samantha-title p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  color: red;
+  padding-top: 1.2px;
+  font-weight: bold;
+}
+.about-company .aboutcompany-section .about-founder .samantha-box .samantha-title p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+.about-company .aboutcompany-section .about-company-info .about-company-btns {
+  display: flex;
+  align-items: end;
+  margin-top: 100px;
+}
+.about-company .aboutcompany-section .about-company-info .about-company-btns .learn-more-button {
+  text-align: center;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid #191919;
+  border-radius: 25px;
+  text-decoration: none;
+  background-color: #191919;
+  color: #ffffff;
+  margin-right: 40px;
+}
+.about-company .aboutcompany-section .about-company-info .about-company-btns .learn-more-button:hover {
+  color: #191919;
+  background-color: #ffffff;
+}
+.about-company .aboutcompany-section .about-company-info .about-company-btns .play-btn {
+  color: #191919;
+  border: 1px solid #191919;
+  padding: 15px 19px 15px 19px;
+  border-radius: 25px;
+  margin-right: 20px;
+}
+.about-company .aboutcompany-section .about-company-info .about-company-btns .play-btn:hover {
+  color: #ffffff;
+  background-color: #191919;
 }
 
 .section-8 .container .project-title {
