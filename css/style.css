@@ -249,6 +249,16 @@ html, body {
 
 .section-4 {
   background-color: #f0efe9;
+  padding-top: 125px;
+  padding-bottom: 115px;
+  position: relative;
+}
+.section-4 .background-lines-right {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 700px;
+  height: auto;
 }
 .section-4 .service-boxes {
   display: flex;
@@ -289,11 +299,26 @@ html, body {
 .section-4 .browse-btn-center {
   display: flex;
   justify-content: center;
+  margin-top: 45px;
+  position: relative;
 }
 .section-4 .browse-btn-center .browse-btn {
+  display: flex;
   border: 1px solid #191919;
   color: #191919;
   text-decoration: none;
+  height: 65px;
+  width: 220px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.section-4 .browse-btn-center .browse-btn i {
+  margin-left: 5px;
+}
+.section-4 .browse-btn-center .browse-btn:hover {
+  background-color: #191919;
+  color: #ffffff;
 }
 
 .about-company .aboutcompany-section {
@@ -367,25 +392,64 @@ html, body {
   background-color: #191919;
 }
 
-.section-8 .container .project-title {
+.section-5 {
+  margin-top: 65px;
+  margin-bottom: 125px;
+  position: relative;
+}
+.section-5 .why-choose-us {
+  display: flex;
+  justify-content: space-between;
+}
+.section-5 .why-choose-us .why-choose-us-info .logo-and-text {
+  display: flex;
+  margin-bottom: 45px;
+}
+.section-5 .why-choose-us .why-choose-us-info .logo-and-text .circle-logo {
+  display: flex;
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 25px;
+}
+.section-5 .why-choose-us .picture-on-box {
+  z-index: 1;
+}
+.section-5 .why-choose-us .picture-on-box img {
+  margin-top: 10px;
+}
+.section-5 .beige-box {
+  background-color: #f0efe9;
+  height: 430px;
+  width: 1055px;
+  position: absolute;
+  right: 0px;
+  top: 190px;
+  z-index: 0;
+}
+
+.section-6 .container .project-title {
   text-align: center;
 }
-.section-8 .container .project-and-case {
+.section-6 .container .project-and-case {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr;
   gap: 30px;
   grid-template-areas: "art1 art2" "art3 art4";
 }
-.section-8 .container .project-and-case #article-1 {
+.section-6 .container .project-and-case #article-1 {
   grid-area: art1;
 }
-.section-8 .container .project-and-case #article-2 {
+.section-6 .container .project-and-case #article-2 {
   grid-area: art2;
 }
-.section-8 .container .project-and-case #article-3 {
+.section-6 .container .project-and-case #article-3 {
   grid-area: art3;
 }
-.section-8 .container .project-and-case #article-4 {
+.section-6 .container .project-and-case #article-4 {
   grid-area: art4;
 }

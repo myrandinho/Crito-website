@@ -328,9 +328,24 @@ header {
 .section-4 {
 
     background-color: #f0efe9;
+    padding-top: 125px;
+    padding-bottom: 115px;
+    position: relative;
+    
+
+    .background-lines-right {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        width: 700px;
+        height: auto;
+        
+    }
+    
 
     .service-boxes {
         display: flex;
+        
         
 
       .btn-right {
@@ -385,16 +400,33 @@ header {
     .browse-btn-center {
         display: flex;
         justify-content: center;
+        margin-top: 45px;
+        position: relative;
 
         .browse-btn {
+            display: flex;
             border: 1px solid #191919;
             color: #191919;
             text-decoration: none;
+            height: 65px;
+            width: 220px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50px;
+
+            i {
+                margin-left: 5px;
+            }
+
+            &:hover {
+                background-color: #191919;
+                color: #ffffff;
+            }
             
         }
     }
 
-    
+  
 }
 
 .about-company {
@@ -494,8 +526,60 @@ header {
     
 }
 
+.section-5 {
+    margin-top: 65px;
+    margin-bottom: 125px;
+    position: relative;
+
+    .why-choose-us {
+        display: flex;
+        justify-content: space-between;
+        
+
+        .why-choose-us-info {
+
+            .logo-and-text {
+                display: flex;
+                margin-bottom: 45px;
+
+                .circle-logo {
+                    display: flex;
+                    border: 1px solid black;
+                    width: 60px;
+                    height: 60px;
+                    border-radius: 50%;
+                    align-items: center;
+                    justify-content: center;
+                    margin-right: 25px;
+                    
+                }
+            }
+        }
+
+        .picture-on-box {
+            z-index: 1;
+            img {
+                margin-top: 10px;
+               
+            }
+           
+        }
+    }
+
+    .beige-box {
+        background-color: #f0efe9;
+        height: 430px;
+        width: 1055px;
+        position: absolute;
+        right: 0px;
+        top: 190px;
+        z-index: 0;
+
+    }
+}
+
     
-.section-8 {
+.section-6 {
     
     .container {
        
