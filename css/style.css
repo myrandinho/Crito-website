@@ -41,6 +41,22 @@ html, body {
   color: #f0efe9;
 }
 
+.small-circles {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.small-circles .small-circle {
+  padding: 6px 6px 6px 6px;
+  border: 1px solid #707070;
+  background-color: #707070;
+  border-radius: 50%;
+}
+.small-circles .small-circle:hover {
+  background-color: #191919;
+  border: 1px solid #191919;
+}
+
 .wrapper-grid .contact-box {
   padding-left: 10px;
   padding-right: 40px;
@@ -431,25 +447,193 @@ html, body {
   z-index: 0;
 }
 
-.section-6 .container .project-title {
+.section-6 {
+  padding-bottom: 90px;
+}
+.section-6 .project-title {
   text-align: center;
 }
-.section-6 .container .project-and-case {
+.section-6 .project-and-case {
   display: grid;
-  grid-template-columns: auto 1fr;
-  grid-template-rows: auto 1fr;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 35px;
+}
+.section-6 .project-and-case .h3-text {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c4c3be;
+}
+.section-6 .project-and-case a {
+  display: flex;
+  margin-top: 35px;
+  justify-content: end;
+  align-items: center;
+  text-decoration: none;
+  color: #191919;
+  font-size: 14px;
+}
+.section-6 .project-and-case a:hover {
+  font-weight: bold;
+}
+.section-6 .project-and-case i {
+  margin-left: 5px;
+  font-size: 16px;
+}
+.section-6 .projects-button {
+  display: flex;
+  justify-content: center;
+}
+.section-6 .projects-button a {
+  display: flex;
+  height: 45px;
+  width: 240px;
+  color: #ffffff;
+  background-color: #191919;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin-top: 50px;
+}
+.section-6 .projects-button a i {
+  margin-left: 5px;
+}
+
+.section-7 {
+  background-color: #F9D783;
+  padding-top: 120px;
+  padding-bottom: 70px;
+}
+.section-7 .meet-our-team .team-box .h2-and-btn {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+.section-7 .meet-our-team .team-box .h2-and-btn .h2-text {
+  padding-bottom: 1px;
+}
+.section-7 .meet-our-team .team-box .h2-and-btn .transparent-button {
+  color: #191919;
+  background-color: #ffd876;
+  text-decoration: none;
+}
+.section-7 .meet-our-team .team-box .h2-and-btn .transparent-button:hover {
+  background-color: #191919;
+  color: #ffffff;
+}
+.section-7 .meet-our-team .team-box .team-members {
+  display: flex;
+  justify-content: space-between;
   gap: 30px;
-  grid-template-areas: "art1 art2" "art3 art4";
+  padding-top: 100px;
 }
-.section-6 .container .project-and-case #article-1 {
-  grid-area: art1;
+
+.section-8 {
+  position: relative;
+  background-color: #F9D783;
+  z-index: 0;
 }
-.section-6 .container .project-and-case #article-2 {
-  grid-area: art2;
+.section-8 .client-reviews {
+  z-index: 2;
+  position: relative;
 }
-.section-6 .container .project-and-case #article-3 {
-  grid-area: art3;
+.section-8 .client-reviews .review-title {
+  text-align: center;
+  padding-bottom: 90px;
 }
-.section-6 .container .project-and-case #article-4 {
-  grid-area: art4;
+.section-8 .client-reviews .flexed-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.section-8 .client-reviews .flexed-boxes .review-box p {
+  font-size: 18px;
+  margin-top: 25px;
+  margin-bottom: 35px;
+}
+.section-8 .client-reviews .flexed-boxes .review-box .image-name-reviewer {
+  display: flex;
+}
+.section-8 .client-reviews .flexed-boxes .review-box .image-name-reviewer img {
+  width: 70px;
+  height: 70px;
+  margin-right: 15px;
+}
+.section-8 .client-reviews .flexed-boxes .review-box .image-name-reviewer .name-and-role {
+  display: block;
+}
+.section-8 .client-reviews .flexed-boxes .review-box .image-name-reviewer .name-and-role .h3-text {
+  padding-top: 12px;
+  padding-bottom: 14px;
+}
+.section-8 .client-reviews .flexed-boxes .review-box .image-name-reviewer .name-and-role .red-text {
+  font-size: 16px;
+  position: relative;
+  bottom: 40px;
+}
+.section-8 .client-reviews .projects-button2 {
+  display: flex;
+  justify-content: center;
+}
+.section-8 .client-reviews .projects-button2 a {
+  display: flex;
+  height: 45px;
+  width: 240px;
+  color: #ffffff;
+  background-color: #191919;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  margin-top: -40px;
+  margin-bottom: 235px;
+}
+.section-8 .client-reviews .projects-button2 a i {
+  margin-left: 5px;
+}
+
+.section-9 {
+  margin-top: 125px;
+  margin-bottom: 90px;
+}
+.section-9 .Article-and-news .text-h2-and-button .Topic-and-button {
+  display: flex;
+  justify-content: space-between;
+}
+.section-9 .Article-and-news .text-h2-and-button .Topic-and-button .transparent-button2 {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  width: 220px;
+  height: 50px;
+  border: 1px solid #191919;
+  border-radius: 25px;
+  background-color: transparent;
+  color: #191919;
+}
+.section-9 .Article-and-news .text-h2-and-button .Topic-and-button .transparent-button2 i {
+  margin-left: 5px;
+  font-size: 18px;
+}
+.section-9 .Article-and-news .text-h2-and-button .Topic-and-button .transparent-button2:hover {
+  background-color: #191919;
+  color: #ffffff;
+}
+.section-9 .Article-and-news .crito-articles {
+  display: flex;
+  justify-content: space-between;
+}
+.section-9 .Article-and-news .crito-articles .article-and-info {
+  margin-bottom: 60px;
+}
+.section-9 .Article-and-news .crito-articles .article-and-info p {
+  margin-top: 30px;
 }

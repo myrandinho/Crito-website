@@ -46,6 +46,27 @@ html, body {
     }
 }
 
+.small-circles {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+
+
+    .small-circle {
+        padding: 6px 6px 6px 6px;
+        border: 1px solid #707070;
+        background-color: #707070;
+        border-radius: 50%;
+
+        &:hover {
+            background-color: #191919;
+            border: 1px solid #191919;
+        }
+        
+    }
+
+}
+
 .wrapper-grid {
 
 
@@ -580,38 +601,281 @@ header {
 
     
 .section-6 {
+    padding-bottom: 90px;
     
-    .container {
-       
-    
-    
-
-        .project-title {
-
+    .project-title {
         text-align: center;
+    }
+
+    .project-and-case {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        column-gap: 30px;
+        row-gap: 35px;
+
+        .h3-text {
+            padding-top: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #c4c3be;
         }
 
-    
+        a {
+            display: flex;
+            margin-top: 35px;
+            justify-content: end;
+            align-items: center;
+            text-decoration: none;
+            color: #191919;
+            font-size: 14px;
 
-        .project-and-case {
-            display: grid;
-            grid-template-columns: auto 1fr;
-            grid-template-rows: auto 1fr;
-            gap: 30px;
-            grid-template-areas: "art1 art2"
-                                    "art3 art4";
+            &:hover {
+                font-weight: bold;
+            }
+
+        }
+        i {
+            margin-left: 5px;
+            font-size: 16px;
+        }
+
+    }
+
+    .projects-button {
+        display: flex;
+        justify-content: center;
+
+        a {
+            display: flex;
+            height: 45px;
+            width: 240px;
+            color: #ffffff;
+            background-color: #191919;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 16px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 25px;
+            margin-top: 50px;
+
+            i {
+                margin-left: 5px;
+            }
+
+
+        }
+        
+        
+    }
+}
+
+.section-7 {
+    background-color: #F9D783;
+    padding-top: 120px;
+    padding-bottom: 70px;
+    
+        .meet-our-team {
+
+        .team-box {
+
+            .h2-and-btn {
+                display: flex;
+                justify-content: space-between;
+                text-align: center;
+                align-items: center;
+                
+               .h2-text {
+                padding-bottom: 1px;
+               }
+
+               .transparent-button {
+                color: #191919;
+                background-color: #ffd876;
+                text-decoration: none;
+
+                &:hover {
+                    background-color: #191919;
+                    color: #ffffff;
+                }
+               }
+            }
+
+            .team-members {
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+                padding-top: 100px;
+            }
+
+            
+        }
+     }
+        
+    
+}
+
+.section-8 {
+    position: relative;
+    background-color: #F9D783;
+    z-index: 0;
+
+    
+        .client-reviews {
+            z-index: 2;
+            position: relative;
+          
+            
+            .review-title {
+                text-align: center;
+                padding-bottom: 90px;
+            }
 
         
-        #article-1 {grid-area: art1}
-        #article-2 {grid-area: art2}
-        #article-3 {grid-area: art3}
-        #article-4 {grid-area: art4}
 
+        .flexed-boxes {
+            display: flex;
+            justify-content: space-between;
+
+        
+
+            .review-box {
+                
+                
+                p {
+                    
+                    font-size: 18px;
+                    margin-top: 25px;
+                    margin-bottom: 35px;
+                }
+
+                .image-name-reviewer {
+                    display: flex;
+                    
+                    img {
+                        width: 70px;
+                        height: 70px;
+                        margin-right: 15px;
+                    }
+                    
+                
+                    .name-and-role {
+                        display: block;
+                        
+                        .h3-text {
+                            padding-top: 12px;
+                            padding-bottom: 14px;
+                        }
+                        
+
+                        .red-text {
+                            font-size: 16px;
+                            position: relative;
+                            bottom: 40px;
+                            
+
+                        }
+
+                    }
+                  
+
+                }
+            }
         }
+
+        .projects-button2 {
+            display: flex;
+            justify-content: center;
+    
+            a {
+                display: flex;
+                height: 45px;
+                width: 240px;
+                color: #ffffff;
+                background-color: #191919;
+                text-decoration: none;
+                font-weight: 400;
+                font-size: 16px;
+                align-items: center;
+                justify-content: center;
+                border-radius: 25px;
+                margin-top: -40px;
+                margin-bottom: 235px;
+    
+                i {
+                    margin-left: 5px;
+                }
+    
+    
+            }
+            
+            
+        }
+
+   
     
     }
 }
 
+.section-9 {
+    margin-top: 125px;
+    margin-bottom: 90px;
+
+    .Article-and-news {
+
+        .text-h2-and-button {
+
+            .Topic-and-button {
+                display: flex;
+                justify-content: space-between;
+
+                .transparent-button2 {
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                    justify-content: center;
+                    width: 220px;
+                    height: 50px;
+                    border: 1px solid #191919;
+                    border-radius: 25px;
+                    background-color: transparent;
+                    color: #191919;
+
+                    i{
+                        margin-left: 5px;
+                        font-size: 18px;
+                    }
+
+                    &:hover {
+                        background-color: #191919;
+                        color: #ffffff;
+                    }
+
+
+                }
+
+            }
+
+        }
+
+        .crito-articles {
+            display: flex;
+            justify-content: space-between;
+
+
+            .article-and-info {
+                margin-bottom: 60px;
+
+                p {
+                    margin-top: 30px;
+                }
+
+            }
+        }
+
+
+    }
+}
 
         
 
