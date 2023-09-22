@@ -637,3 +637,85 @@ html, body {
 .section-9 .Article-and-news .crito-articles .article-and-info p {
   margin-top: 30px;
 }
+
+.section-10 {
+  position: relative;
+  z-index: 0;
+  background-color: #f0efe9;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section-10 .submit-your-mail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.section-10 .submit-your-mail .h2-text {
+  padding-bottom: 0px;
+}
+.section-10 .submit-your-mail .empty-field-and-subscribe-btn {
+  display: flex;
+  gap: 20px;
+}
+.section-10 .submit-your-mail .empty-field-and-subscribe-btn .searchbox {
+  border: none;
+}
+.section-10 .submit-your-mail .empty-field-and-subscribe-btn .searchbox .insert-your-email {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 310px;
+  height: 55px;
+  border-radius: 25px;
+  border: none;
+}
+.section-10 .submit-your-mail .empty-field-and-subscribe-btn .yellow-button {
+  margin-right: 50px;
+}
+.section-10 .submit-your-mail .empty-field-and-subscribe-btn .yellow-button:hover {
+  background-color: #191919;
+  color: #ffffff;
+}
+.section-10 .submit-your-mail .empty-field-and-subscribe-btn .yellow-button i {
+  margin-left: 5px;
+}
+.section-10 img {
+  position: absolute;
+  right: 0px;
+  bottom: 50px;
+  z-index: 1;
+}
+
+.section-11 {
+  background-color: #191919;
+  padding-top: 115px;
+}
+.section-11 .crito-footer .footer-link-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 90px;
+  border-bottom: 1px solid #91918b;
+}
+.section-11 .crito-footer .copyright-and-socialmedia {
+  display: flex;
+  justify-content: space-between;
+}
+.section-11 .crito-footer .copyright-and-socialmedia .socialmedia-bar {
+  display: flex;
+}
+.section-11 .crito-footer .copyright-and-socialmedia .socialmedia-bar a {
+  margin-left: 10px;
+  background-color: #191919;
+}
+.section-11 a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+}
+.section-11 p {
+  color: #ffffff;
+}
+.section-11 .h3-text {
+  color: #ffffff;
+  padding-top: 20px;
+}
